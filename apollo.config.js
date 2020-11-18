@@ -1,3 +1,4 @@
+// Config file for codegen
 module.exports = {
   client: {
     service: {

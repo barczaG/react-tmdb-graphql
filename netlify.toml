@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/graphql"
+  to = "http://tmdb.sandbox.zoosh.ie/"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect

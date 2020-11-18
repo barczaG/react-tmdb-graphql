@@ -1,0 +1,57 @@
+{
+  "name": "create-react-app-with-typescript",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.2.7",
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "^4.9.1",
+    "@types/lodash": "^4.14.165",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "axios": "^0.21.0",
+    "dayjs": "^1.9.6",
+    "graphql": "^15.4.0",
+    "lodash": "^4.17.20",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-scripts": "latest",
+    "react-use-promise": "^0.3.1",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "codegen": "apollo client:codegen  --target=typescript"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "apollo": "^2.31.1",
+    "http-proxy-middleware": "^1.0.6",
+    "husky": ">=4",
+    "lint-staged": ">=10",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}

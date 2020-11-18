@@ -1,5 +1,7 @@
 //eslint-disable-next-line
 const { createProxyMiddleware } = require("http-proxy-middleware");
+
+// We need this reverse proxy to bypass CORS
 module.exports = function (app) {
   app.use(
     "/graphql",
